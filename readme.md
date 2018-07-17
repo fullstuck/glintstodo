@@ -8,8 +8,9 @@ You can [access the demo here](https://www.figma.com/proto/Z1bsUAjpBnrihfC1KIKsg
 
 ## Features
 
-* Add todo
+* Create todo
 * Read todo
+* Update todo
 * Delete todo
 
 ## Screenshot

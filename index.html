@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo List App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="site">
+    <header class="jumbotron text-center head">
+        <h1 class="animated bounceInDown">Todo List App</h1>
+    </header>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Todo App</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container main">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="task">Task:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control" id="task" placeholder="Write your task here">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="place">Place:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control" id="place" placeholder="Write the place here">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="date">Date:</label>
+                <div class="col-sm-7">
+                    <input type="date" class="form-control" id="date">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Add Task</button>
+                </div>
+            </div>
+        </form>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Date</th>
+                    <th>Place</th>
+                    <th>Complete</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Doing Something</td>
+                    <td>Tuesday, July 17 2018</td>
+                    <td>Nongsa Digital Park</td>
+                    <td>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <button type="button" name="Edit" class="btn btn-primary">Edit</button>
+                        <button type="button" name="Delete" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Doing Anything</td>
+                    <td>Wednesday, July 18 2018</td>
+                    <td>Batam Centre</td>
+                    <td>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <button type="button" name="Edit" class="btn btn-primary">Edit</button>
+                        <button type="button" name="Delete" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="foot">
+        <small>Created By: Muhammad Alif Raher</small>
+    </footer>
+</body>
+
+</html>

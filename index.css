@@ -1,0 +1,24 @@
+.head {
+    margin: 0px;
+    background-image: url("header.jpg");
+    font-family: 'Anton', sans-serif;
+    color: cornsilk;
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main {
+    width: 70%;
+    flex: 1;
+}
+
+.foot {
+    margin: 0px;
+    background-color: darkslategray;
+    padding: 20px;
+    color: cornsilk;
+}

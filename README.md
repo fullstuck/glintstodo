@@ -4,7 +4,7 @@
 
 To Do List App is a simple todo application for everyone.
 
-You can [access the demo here](https://www.figma.com/proto/Z1bsUAjpBnrihfC1KIKsg1jI/TO-DO-LIST?scaling=scale-down&node-id=1%3A2)
+You can [access the demo here](https://www.figma.com/proto/C8ayKd2eiI8gRYFga2NVRciK/Todo-List-v2?node-id=4%3A0&scaling=scale-down)
 
 ## Features
 
@@ -15,8 +15,8 @@ You can [access the demo here](https://www.figma.com/proto/Z1bsUAjpBnrihfC1KIKsg
 * Check complete todo
 
 ## Screenshot
-
-![TODO_LIST](./todo_list_v2.png)
+![TODO_LIST_MOBILE](./todo_list_mobile_v2.png)
+![TODO_LIST_WEB](./todo_list_v2.png)
 
 ## Link Application
 [Todo List App](https://alifraher.github.io/glintstodo/)

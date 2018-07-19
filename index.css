@@ -15,6 +15,10 @@
     flex: 1;
 }
 
+.input {
+    max-width: 300px;
+}
+
 .foot {
     margin: 0px;
     background-color: darkslategray;

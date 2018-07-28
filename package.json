@@ -1,0 +1,24 @@
+{
+  "name": "glintstodo",
+  "version": "1.0.0",
+  "description": "Learn how to make Todo Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alifraher/glintstodo.git"
+  },
+  "keywords": [
+    "todo",
+    "glints",
+    "javascript"
+  ],
+  "author": "M Alif Raher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alifraher/glintstodo/issues"
+  },
+  "homepage": "https://github.com/alifraher/glintstodo#readme"
+}
